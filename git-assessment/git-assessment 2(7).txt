@@ -1,0 +1,3 @@
+checkout main 
+create a new file in main
+rebase with main
