@@ -1,0 +1,13 @@
+Git Assessment-2
+
+1.	How do you rename the current branch you are on to a new-branch-name?  git rename -m current-branch-name old-branch-name
+2.	What is the command to stash your changes and include untracked files?git stash -u
+3.	How would you merge changes from the branch feature-new into your current branch?git add 
+4.	What command do you use to view the differences between your working directory and the last commit?git diff
+5.	Explain how to resolve a merge conflict that occurs during a git merge. What steps would you take?
+	git status
+	git add
+	git commit -m
+	git push -u
+6.	Explain the purpose and use case of git rebase with an example. How does it differ from git merge?
+	git rebase is a powerful tool for creating a clean commit history, making it easier to follow the evolution of a project. In contrast, git merge retains the 	complete branching context, which can be beneficial in certain scenarios. The choice between the two often comes down to team preferences and project 	requirements.
